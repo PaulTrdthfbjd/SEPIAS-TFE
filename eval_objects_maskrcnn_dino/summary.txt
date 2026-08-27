@@ -1,0 +1,8 @@
+obj_dump: dump_obj_maskrcnn_scenes_full.pk1
+N_images: 578
+D: 768
+queries: 578
+kmax: 10
+mAP@10: 0.03139305143178997
+P@10: 0.5228373702422148
+R@10: 0.04051247195710867

@@ -1,0 +1,8 @@
+obj_dump: dump_obj_clip_unet_scenes_full.pk1
+N_images: 583
+D: 512
+queries: 583
+kmax: 10
+mAP@10: 0.0132986823425413
+P@10: 0.331732418524871
+R@10: 0.022825149075189583

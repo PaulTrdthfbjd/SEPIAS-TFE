@@ -1,0 +1,26 @@
+# --- Core scientific stack
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.3.3
+matplotlib==3.10.7
+pillow==11.3.0
+
+# --- Utils
+python-dotenv==1.1.1
+tqdm==4.67.1
+PyYAML==6.0.3
+requests==2.32.5
+
+# --- Hugging Face
+transformers==4.57.1
+huggingface-hub==0.36.0
+tokenizers==0.22.1
+safetensors==0.6.2
+regex==2025.11.3
+
+# --- Web UI
+streamlit>=1.32,<2
+
+# NOTE:
+# torch / torchvision / torchaudio sont installés séparément via l'index officiel PyTorch.
+# Ne pas mettre les nvidia-*-cu12 ni triton ici sur Windows.

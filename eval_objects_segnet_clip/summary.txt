@@ -1,0 +1,8 @@
+obj_dump: dump_obj_clip_segnet_scenes_full.pk1
+N_images: 573
+D: 512
+queries: 573
+kmax: 10
+mAP@10: 0.01437976399140269
+P@10: 0.337870855148342
+R@10: 0.024368649746005767

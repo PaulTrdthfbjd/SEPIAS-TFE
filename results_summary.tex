@@ -1,0 +1,36 @@
+\begin{tabular}{lllrrrrr}
+\toprule
+segmentation & backbone & variante & P@10 & R@10 & mAP@20 & HitRate@10 & MRR \\
+\midrule
+maskrcnn & CLIP & PRE_global & 0.7573 & 0.0613 & 0.0980 & 0.9827 & 0.8784 \\
+maskrcnn & CLIP & POST_max & 0.6486 & 0.0493 & 0.0763 & 0.9446 & 0.8176 \\
+maskrcnn & CLIP & FUSION_best(0.75) & 0.7578 & 0.0610 & 0.0987 & 0.9810 & 0.8887 \\
+maskrcnn & DINO & PRE_global & 0.7126 & 0.0583 & 0.0894 & 0.9689 & 0.8876 \\
+maskrcnn & DINO & POST_max & 0.6223 & 0.0474 & 0.0668 & 0.9827 & 0.8328 \\
+maskrcnn & DINO & FUSION_best(0.75) & 0.7164 & 0.0579 & 0.0875 & 0.9775 & 0.8843 \\
+maskrcnn & DINO & PRE_global & 0.7126 & 0.0583 & 0.0894 & 0.9689 & 0.8876 \\
+maskrcnn & DINO & POST_max & 0.6223 & 0.0474 & 0.0668 & 0.9827 & 0.8328 \\
+maskrcnn & DINO & FUSION_best(0.75) & 0.7164 & 0.0579 & 0.0875 & 0.9775 & 0.8843 \\
+samauto & CLIP & PRE_global & 0.7399 & 0.0557 & 0.0884 & 0.9853 & 0.8699 \\
+samauto & CLIP & POST_max & 0.5876 & 0.0403 & 0.0603 & 0.9642 & 0.7917 \\
+samauto & CLIP & FUSION_best(1) & 0.7399 & 0.0557 & 0.0884 & 0.9853 & 0.8699 \\
+samauto & DINO & PRE_global & 0.7018 & 0.0534 & 0.0810 & 0.9723 & 0.8847 \\
+samauto & DINO & POST_max & 0.5244 & 0.0358 & 0.0453 & 0.9739 & 0.7951 \\
+samauto & DINO & FUSION_best(1) & 0.7018 & 0.0534 & 0.0810 & 0.9723 & 0.8847 \\
+samauto & DINO & PRE_global & 0.7018 & 0.0534 & 0.0810 & 0.9723 & 0.8847 \\
+samauto & DINO & POST_max & 0.5078 & 0.0343 & 0.0426 & 0.9870 & 0.7911 \\
+samauto & DINO & FUSION_best(1) & 0.7018 & 0.0534 & 0.0810 & 0.9723 & 0.8847 \\
+segnet & CLIP & PRE_global & 0.7553 & 0.0614 & 0.0980 & 0.9843 & 0.8803 \\
+segnet & CLIP & POST_max & 0.5949 & 0.0446 & 0.0649 & 0.9756 & 0.8001 \\
+segnet & CLIP & FUSION_best(1) & 0.7553 & 0.0614 & 0.0980 & 0.9843 & 0.8803 \\
+segnet & DINO & PRE_global & 0.7084 & 0.0579 & 0.0882 & 0.9686 & 0.8819 \\
+segnet & DINO & POST_max & 0.5192 & 0.0377 & 0.0463 & 0.9703 & 0.8043 \\
+segnet & DINO & FUSION_best(1) & 0.7084 & 0.0579 & 0.0882 & 0.9686 & 0.8819 \\
+unet & CLIP & PRE_global & 0.7436 & 0.0590 & 0.0933 & 0.9846 & 0.8761 \\
+unet & CLIP & POST_max & 0.6328 & 0.0482 & 0.0680 & 0.9846 & 0.8409 \\
+unet & CLIP & FUSION_best(1) & 0.7436 & 0.0590 & 0.0933 & 0.9846 & 0.8761 \\
+unet & DINO & PRE_global & 0.7053 & 0.0566 & 0.0860 & 0.9743 & 0.8850 \\
+unet & DINO & POST_max & 0.5765 & 0.0443 & 0.0549 & 0.9708 & 0.8265 \\
+unet & DINO & FUSION_best(1) & 0.7053 & 0.0566 & 0.0860 & 0.9743 & 0.8850 \\
+\bottomrule
+\end{tabular}

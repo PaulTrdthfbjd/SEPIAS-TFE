@@ -1,0 +1,41 @@
+.env
+.venv/
+venv/
+
+
+# Images (non redistribuées : corpus WikiArt)
+benchs/
+benchs_full/
+
+# Index sérialisés (régénérables via les scripts de build)
+*.pk1
+*.pkl
+old_dumps-pairs-objects/
+
+# Masques et sous-images générés
+masks_sam_union_scenes/
+masks_sam_union_scenes_full2/
+masks_sam_union_scenes_full_old/
+objects*/
+crops_*/
+scene_lists/
+pseudo_*/
+qualitative_*/
+dump.ps1
+figures/
+
+# Poids de modèles
+*.pth
+*.pt
+models/
+checkpoints/
+
+# Résultats obsolètes (corpus 81k, protocole périmé)
+cbir_results.csv
+eval_global_fusion.csv
+old_evals/
+
+# Divers
+__pycache__/
+*.pyc
+dump.txt

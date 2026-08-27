@@ -1,0 +1,8 @@
+obj_dump: dump_obj_samauto_scenes_full.pk1
+N_images: 614
+D: 768
+queries: 614
+kmax: 10
+mAP@10: 0.01713887728584742
+P@10: 0.3890879478827359
+R@10: 0.026191531328523955
